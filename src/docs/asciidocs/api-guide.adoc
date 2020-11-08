@@ -1,0 +1,72 @@
+= Exchange API
+by Talha
+:toc: left
+
+
+
+== Querying Rate
+
+==== Sample Request
+include::{snippets}/rate/curl-request.adoc[]
+include::{snippets}/rate/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/rate/response-body.adoc[]
+
+==== Response Fields
+include::{snippets}/rate/response-fields.adoc[]
+
+==== Errors
+include::{snippets}/currency-400/response-body.adoc[]
+include::{snippets}/currency-503/response-body.adoc[]
+include::{snippets}/currency-500/response-body.adoc[]
+
+== Convert Currency
+
+==== Sample Request
+include::{snippets}/currency-convert/curl-request.adoc[]
+include::{snippets}/currency-convert/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/currency-convert/response-body.adoc[]
+
+==== Response Fields
+include::{snippets}/currency-convert/response-fields.adoc[]
+
+==== Errors
+include::{snippets}/currency-400/response-body.adoc[]
+include::{snippets}/currency-503/response-body.adoc[]
+include::{snippets}/currency-500/response-body.adoc[]
+
+== Available Currencies
+
+==== Sample Request
+include::{snippets}/currencies/curl-request.adoc[]
+include::{snippets}/currencies/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/currencies/response-body.adoc[]
+
+==== Response Fields
+include::{snippets}/currencies/response-fields.adoc[]
+
+==== Errors
+include::{snippets}/currency-503/response-body.adoc[]
+include::{snippets}/currency-500/response-body.adoc[]
+
+== Conversion History
+
+==== Sample Request
+include::{snippets}/conversion-history/curl-request.adoc[]
+include::{snippets}/conversion-history/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/conversion-history/response-body.adoc[]
+
+==== Response Fields
+include::{snippets}/conversion-history/response-fields.adoc[]
+
+==== Errors
+include::{snippets}/conversion-400/response-body.adoc[]
+include::{snippets}/conversion-404/response-body.adoc[]
+include::{snippets}/conversion-500/response-body.adoc[]
